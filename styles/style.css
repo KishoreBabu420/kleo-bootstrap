@@ -19,6 +19,10 @@ body {
   overflow-x: hidden;
 }
 
+/* Global CSS */
+
+/* Utility CSS */
+
 a {
   outline: none;
   text-decoration: none !important;
@@ -85,4 +89,65 @@ p {
   text-align: center;
   white-space: nowrap;
   text-transform: uppercase;
+}
+
+/* Project CSS */
+
+/* ----HEADER CSS---- */
+.header-bg {
+  padding: 170px 0 140px;
+  background-image: url('../assests/images/header-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.header-bg .main-title {
+  font-size: 2.8rem;
+  line-height: 1.35;
+  color: #6c55a3;
+}
+
+.nav-item .nav-link {
+  text-decoration: none;
+  display: inline-block;
+  color: #343a40 !important;
+}
+
+.navbar-kleo {
+  margin-bottom: 0px;
+  background-color: transparent;
+  padding: 14px 0px;
+  width: 100%;
+  border-radius: 0px;
+  z-index: 999;
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
+.navbar-kleo .navbar-nav li a {
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: transparent;
+  padding: 8px 0;
+  margin: 0 20px;
+}
+
+.navbar-toggler {
+  font-size: 1.2rem;
+  background: 0;
+  border: 1px solid transparent;
+  color: #6c55a3;
+  outline: 0;
+}
+
+.navbar-kleo.sticky-nav {
+  background-color: #fff;
+  margin-top: 0px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.06);
+  color: #000 !important;
 }
